@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'code_react' do
+  pod 'AppCenter/Crashes', '~> 1.10.0'
+  pod 'AppCenter/Analytics', '~> 1.10.0'
+  pod 'AppCenterReactNativeShared', '~> 1.9.0'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for code_react
+
+  
+
+  platform :ios, '9.0'
+  target 'code_reactTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'code_react-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for code_react-tvOS
+
+  target 'code_react-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
